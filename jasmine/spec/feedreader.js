@@ -122,4 +122,18 @@ $(function() {
          * by the loadFeed function that the content actually changes.
          * Remember, loadFeed() is asynchronous.
          */
+        it('changes content when new feed is loaded', function(done) {
+            //Call loadFeed function with new index
+            loadFeed(1, function() {
+                //Test if new feed differs from intial feed
+                expect($('.feed').html()).not.toEqual(feedOne);
+                done();
+            });
+        });
+
+        //Revert feed back to orginal feed
+        afterEach(function(done) {
+            loadFeed(0, done);
+        });
+    });
 }());
