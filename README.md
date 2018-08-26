@@ -46,3 +46,39 @@ Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/pr
 19. Implement error handling for undefined variables and out-of-bound array access.
 20. When complete - all of your tests should pass. 
 21. Write a README file detailing all steps required to successfully run the application. If you have added additional tests (for Udacious Test Coverage),  provide documentation for what these future features are and what the tests are checking for.
+# Feed Reader Test
+- Author: Ahmed Elsawy.
+
+- How to install: download the zip file, unzip it and open the index.html with your browser.
+
+
+
+- Required dependencies:  
+
+    - Google Fonts
+    - jQuery
+    - jasmine
+    - normalize css file
+
+
+
+## Table of Contents
+
+* [Instructions](#instructions)
+* [Contributing](#contributing)
+
+
+## Contributing
+
+This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+
+For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+How to test is :-
+
+1- clone the git repository
+2- Extract the .zip file
+3- Open index.html in your browser
+4-refresh the page for TWO times and you will see the program passes all tests
+
+
